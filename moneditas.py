@@ -30,7 +30,7 @@ def precio_carrefour(url):
 protein_url           = "https://www.carrefour.com.ar/leche-descremada-la-serenisima-uat-proteinas-1-l/p"
 prebioticos_url       = "https://www.carrefour.com.ar/leche-la-serenisima-con-prebioticos-1-lt-705547/p"
 cero_lactosa_url      = "https://www.carrefour.com.ar/leche-descremada-larga-vida-la-serenisima-cero-lactosa-1-l/p"
-nesquik_menos_az_300g = "https://www.carrefour.com.ar/cacao-en-polvo-nesquik-menos-azucar-300-g-719361/p"
+nesquik_menos_az_300g = "https://www.carrefour.com.ar/nesquik-original-cacao-en-polvo-menos-azucar-300-g-719361/p"
 
 #Nombres de los productos
 productos_carrefour = {
@@ -41,5 +41,7 @@ productos_carrefour = {
 }
 
 # Precios de los productos
-for producto, link in productos_carrefour.items():
-    print(producto, precio_carrefour(link))
+#for producto, link in productos_carrefour.items():
+#    print(producto, precio_carrefour(link))
+
+#Esto es una prueba
